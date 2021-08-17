@@ -52,6 +52,10 @@
                 {
                   "x": 275,
                   "y": 75
+                },
+                {
+                  "x": 296,
+                  "y": 83
                 }
               ],
               "id": "31012d13-1ef9-4676-8f19-9da4de65faf9",
@@ -161,6 +165,7 @@
               "id": "1c3089c8-565d-470e-8a0a-23f2cc63bd62",
               "z": 5,
               "hasOpenThreats": false,
+              "storesCredentials": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -229,6 +234,7 @@
               "id": "f0b45ec0-731d-4a43-a68a-7b576772c6cd",
               "z": 7,
               "hasOpenThreats": false,
+              "privilegeLevel": "",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
