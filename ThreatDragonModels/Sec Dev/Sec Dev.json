@@ -85,8 +85,8 @@
                 "height": 100
               },
               "position": {
-                "x": 336,
-                "y": 63
+                "x": 322,
+                "y": 64
               },
               "angle": 0,
               "id": "6d43cb4b-2999-4060-829f-b4ae8ea66976",
@@ -111,8 +111,7 @@
                 "id": "6d43cb4b-2999-4060-829f-b4ae8ea66976"
               },
               "target": {
-                "x": 548,
-                "y": 103
+                "id": "1c3089c8-565d-470e-8a0a-23f2cc63bd62"
               },
               "vertices": [
                 {
@@ -155,8 +154,8 @@
                 "height": 80
               },
               "position": {
-                "x": 552,
-                "y": 65
+                "x": 556,
+                "y": 81
               },
               "angle": 0,
               "id": "1c3089c8-565d-470e-8a0a-23f2cc63bd62",
@@ -206,6 +205,71 @@
                 }
               ],
               "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 320,
+                "y": 246
+              },
+              "angle": 0,
+              "id": "f0b45ec0-731d-4a43-a68a-7b576772c6cd",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Product\nCatalog"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6d43cb4b-2999-4060-829f-b4ae8ea66976"
+              },
+              "target": {
+                "id": "f0b45ec0-731d-4a43-a68a-7b576772c6cd"
+              },
+              "vertices": [
+                {
+                  "x": 370,
+                  "y": 203
+                }
+              ],
+              "id": "ca9dca8c-0727-448e-b22f-866a1fa26a4d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 7",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
