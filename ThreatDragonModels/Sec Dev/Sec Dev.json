@@ -97,7 +97,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Authentication"
+                  "text": "Authentication\nService"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
